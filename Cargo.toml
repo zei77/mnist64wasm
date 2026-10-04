@@ -1,0 +1,7 @@
+[workspace]
+resolver="3"
+members = ["crates/inference", "wasm", "cli"]
+exclude = ["py-tools"]
+
+[workspace.dependencies]
+inference = { path = "crates/inference" }
